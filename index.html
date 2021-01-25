@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Título da Página -->
+	<title>Grm Acessórios</title> 
+
+	<!-- Referência CSS do Framework -->
+	<link rel="stylesheet" type="text/css" href="semantic.css">
+
+	<!-- Script jquery do Framework -->
+	<script
+  		src="https://code.jquery.com/jquery-3.1.1.min.js"
+  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  		crossorigin="anonymous">
+   	</script>
+
+   	<!-- Script JavaScript do Framework -->
+	<script src="semantic.min.js"></script>
+
+	<meta charset="utf-8">
+
+</head>
+<body>
+
+<!-- Menu do topo da página, cor invertida.  -->
+<div class="ui inverted fixed menu">
+
+	<!-- Item do Cabeçalho -->	
+	<div class="header item">
+
+		<!-- Ícone de Carro do Framework -->
+		<i class="car icon"></i>
+
+		GRM ACESSÓRIOS
+
+	</div>
+
+	<!-- Item do Cabeçalho com Link -->
+    <a href="" class="item">Início</a>
+
+    <!-- DropDown  -->
+	<div class="ui simple dropdown item">
+
+        Produtos
+
+    	<!-- Item do Cabeçalho com Link -->
+        <i class="dropdown icon"></i>   
+
+        <!-- Divisão para o DropDown -->     
+        <div class="menu">
+
+        	<!-- Item do DropDown com link --> 
+	        <a class="item" href="#">Todos</a>
+
+			<!-- Divisão -->
+	        <div class="divider"></div>
+
+	        <!-- Título  -->
+	        <div class="header">Categorias</div>
+
+	        <!-- Item do DropDown com link -->
+	        <a class="item" href="#">Som automotivo</a>
+
+	        <!-- Item do DropDown com link -->
+	        <a class="item" href="#">Alarmes e Segurança</a>
+
+	        <!-- Item do DropDown com link -->
+	        <a class="item" href="#">Limpeza Automotiva</a>
+
+	        <!-- Item do DropDown com link -->
+	        <a class="item" href="#">Iluminação Automotiva</a>
+
+	        <!-- Item do DropDown com link -->
+	        <a class="item" href="#">Carroceria</a>
+
+	        <!-- Item do DropDown com link -->
+	        <a class="item" href="#">Vidros</a>
+
+	        <!-- DropDown dentro do DropDown -->
+            <div class="item">
+
+            	<!-- Ícone dropdown do Framework -->
+	            <i class="dropdown icon"></i>
+
+	            Peças
+
+        <!-- Divisão para o DropDown -->	            
+	            <div class="menu">
+
+					<!-- Item do DropDown com link -->
+	              	<a class="item" href="#">Interior</a>
+
+					<!-- Item do DropDown com link -->	
+	              	<a class="item" href="#">Exterior</a>
+	            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Item que vai a uma parte da página -->
+    <a href="#vendidos" class="item">Mais Vendidos</a>
+ 
+    <!-- Item que vai a uma parte da página -->
+    <a href="#comments" class="item">Comentários</a>
+
+    <!-- Item com link -->    
+	<a href="" class="item">Suporte</a>
+
+	<!-- Divisão item -->
+	<div class="item">
+
+		<!-- Divisão para input -->
+		<div class="ui icon input">
+
+		<!-- Input de caixa de pesquisa -->	
+      	<input type="text" placeholder="Pesquisar">
+
+      	<!-- Ícone de pesquisa do framework -->
+      	<i class="search icon"></i>
+    	</div>
+	</div>
+
+	<!-- Item na Direita -->
+	<div class="right item">
+
+		<!-- Item com link e Ícone do Framework -->
+		<a href="" class="item">Login <i class="user circle icon"></i></a>
+
+		<!-- Item com link e Ícone do Framework -->
+		<a href="" class="item">Carrrinho <i class="shopping cart icon"></i></a>
+	</div>
+</div>
+
+<br><br><br>
+<!-- Divisão Central com margem para o conteúdo do Site -->
+<div class="ui vertical strip segment" style="margin: 50px;">
+
+	<!-- Divisão em 4 colunas -->
+	<div class="ui four column grid">
+
+		<!-- Coluna -->
+		<div class="column">
+
+			<!-- Imagem que ocupa a largura do container -->
+			<div class="ui fluid image">
+
+				<!-- Detalhe estético na imagem -->
+		      	<div class="ui black ribbon label">
+		        	Borrachas
+		      	</div>
+
+		      	<!-- Imagem com link -->
+		      	<a href="">
+		      		<img src="imagens/borracha.jpg">		
+		      	</a>
+		    	</div>
+			</div>
+
+		<!-- Coluna -->	
+		<div class="column">
+
+			<!-- Imagem que ocupa a largura do container -->
+			<div class="ui fluid image">
+
+				<!-- Detalhe estético na imagem -->
+		      	<div class="ui black ribbon label">
+		        	Faróis
+		      	</div>
+
+		      	<!-- Imagem com link -->
+		      	<a href="">
+		      		<img src="imagens/farol.jpg">
+		      	</a>
+		    </div>
+		</div>		
+
+		<!-- Coluna -->
+		<div class="column">
+
+			<!-- Imagem que ocupa a largura do container -->
+			<div class="ui fluid image">
+
+				<!-- Detalhe estético na imagem -->
+		      	<div class="ui black ribbon label">
+		        	Grades
+		      	</div>
+
+		      	<!-- Imagem com link -->
+		      	<a href="">
+		      		<img src="imagens/grade.jpg">		
+		      	</a>
+		    	</div>
+			</div>
+
+		<!-- Coluna -->	
+		<div class="column">
+
+			<!-- Imagem que ocupa a largura do container -->
+			<div class="ui fluid image">
+
+				<!-- Detalhe estético na imagem -->
+		      	<div class="ui black ribbon label">
+		        	Canaletas
+		      	</div>
+
+		      	<!-- Imagem com link -->
+		      	<a href="">
+		      		<img src="imagens/canaleta.jpg">
+		      	</a>
+		    </div>
+		</div>					
+	</div>
+
+	<!-- Divisão -->
+	<div class="ui divider"></div>
+
+	<!-- Título -->
+	<h1 id="vendidos">Mais vendidos</h1>
+
+
+	<!-- Divisão em 4 colunas -->
+	<div class="ui four column grid">
+
+		<!-- Coluna -->	
+		<div class="column">
+
+			<!-- Divisão para animação de imagem -->	
+			<div class="ui move right reveal">
+
+				<!-- Imagem Visível -->	
+		  		<div class="visible content">
+
+		  			<!-- Imagem com link -->	
+		    		<a href=""><img src="imagens/trava1.jpg" class="ui small image"></a>
+		  		</div>
+
+			<!-- Imagem Invisível -->		
+		  	<div class="hidden content">
+
+		  		<!-- Imagem com link -->	
+		    	<a href=""><img src="imagens/trava2.jpg" class="ui small image"></a>
+		  	</div>
+		    </div>
+
+		    <!-- Nome do Produto e Preço com Link -->	
+		    <a href=""><h2 class="ui header">Trava Quebra Vento</h2>
+		    <h3>R$25,90</h3></a>
+
+		    <!-- Botão Verde -->	
+		  	<button class="positive ui button">Comprar</button>
+
+		  	<!-- Botão Vermelhor e Ícone de carrinho -->	
+		  	<button class="negative ui button"><i class="shopping cart icon"></i></button>
+	    </div>
+
+
+		<!-- Coluna -->	
+		<div class="column">
+
+			<!-- Divisão para animação de imagem -->	
+			<div class="ui move right reveal">
+
+				<!-- Imagem Visível -->	
+		  		<div class="visible content">
+
+		  			<!-- Imagem com link -->	
+		    		<a href=""><img src="imagens/trava1.jpg" class="ui small image"></a>
+		  		</div>
+
+			<!-- Imagem Invisível -->		
+		  	<div class="hidden content">
+
+		  		<!-- Imagem com link -->	
+		    	<a href=""><img src="imagens/trava2.jpg" class="ui small image"></a>
+		  	</div>
+		    </div>
+
+		    <!-- Nome do Produto e Preço com Link -->	
+		    <a href=""><h2 class="ui header">Trava Quebra Vento</h2>
+		    <h3>R$25,90</h3></a>
+
+		    <!-- Botão Verde -->	
+		  	<button class="positive ui button">Comprar</button>
+
+		  	<!-- Botão Vermelhor e Ícone de carrinho -->	
+		  	<button class="negative ui button"><i class="shopping cart icon"></i></button>
+	    </div>
+
+
+		<!-- Coluna -->	
+		<div class="column">
+
+			<!-- Divisão para animação de imagem -->	
+			<div class="ui move right reveal">
+
+				<!-- Imagem Visível -->	
+		  		<div class="visible content">
+
+		  			<!-- Imagem com link -->	
+		    		<a href=""><img src="imagens/trava1.jpg" class="ui small image"></a>
+		  		</div>
+
+			<!-- Imagem Invisível -->		
+		  	<div class="hidden content">
+
+		  		<!-- Imagem com link -->	
+		    	<a href=""><img src="imagens/trava2.jpg" class="ui small image"></a>
+		  	</div>
+		    </div>
+
+		    <!-- Nome do Produto e Preço com Link -->	
+		    <a href=""><h2 class="ui header">Trava Quebra Vento</h2>
+		    <h3>R$25,90</h3></a>
+
+		    <!-- Botão Verde -->	
+		  	<button class="positive ui button">Comprar</button>
+
+		  	<!-- Botão Vermelhor e Ícone de carrinho -->	
+		  	<button class="negative ui button"><i class="shopping cart icon"></i></button>
+	    </div>
+
+
+		<!-- Coluna -->	
+		<div class="column">
+
+			<!-- Divisão para animação de imagem -->	
+			<div class="ui move right reveal">
+
+				<!-- Imagem Visível -->	
+		  		<div class="visible content">
+
+		  			<!-- Imagem com link -->	
+		    		<a href=""><img src="imagens/trava1.jpg" class="ui small image"></a>
+		  		</div>
+
+			<!-- Imagem Invisível -->		
+		  	<div class="hidden content">
+
+		  		<!-- Imagem com link -->	
+		    	<a href=""><img src="imagens/trava2.jpg" class="ui small image"></a>
+		  	</div>
+		    </div>
+
+		    <!-- Nome do Produto e Preço com Link -->	
+		    <a href=""><h2 class="ui header">Trava Quebra Vento</h2>
+		    <h3>R$25,90</h3></a>
+
+		    <!-- Botão Verde -->	
+		  	<button class="positive ui button">Comprar</button>
+
+		  	<!-- Botão Vermelhor e Ícone de carrinho -->	
+		  	<button class="negative ui button"><i class="shopping cart icon"></i></button>
+	    </div>
+	    		<!-- Coluna -->	
+		<div class="column">
+
+			<!-- Divisão para animação de imagem -->	
+			<div class="ui move right reveal">
+
+				<!-- Imagem Visível -->	
+		  		<div class="visible content">
+
+		  			<!-- Imagem com link -->	
+		    		<a href=""><img src="imagens/trava1.jpg" class="ui small image"></a>
+		  		</div>
+
+			<!-- Imagem Invisível -->		
+		  	<div class="hidden content">
+
+		  		<!-- Imagem com link -->	
+		    	<a href=""><img src="imagens/trava2.jpg" class="ui small image"></a>
+		  	</div>
+		    </div>
+
+		    <!-- Nome do Produto e Preço com Link -->	
+		    <a href=""><h2 class="ui header">Trava Quebra Vento</h2>
+		    <h3>R$25,90</h3></a>
+
+		    <!-- Botão Verde -->	
+		  	<button class="positive ui button">Comprar</button>
+
+		  	<!-- Botão Vermelhor e Ícone de carrinho -->	
+		  	<button class="negative ui button"><i class="shopping cart icon"></i></button>
+	    </div>
+
+
+		<!-- Coluna -->	
+		<div class="column">
+
+			<!-- Divisão para animação de imagem -->	
+			<div class="ui move right reveal">
+
+				<!-- Imagem Visível -->	
+		  		<div class="visible content">
+
+		  			<!-- Imagem com link -->	
+		    		<a href=""><img src="imagens/trava1.jpg" class="ui small image"></a>
+		  		</div>
+
+			<!-- Imagem Invisível -->		
+		  	<div class="hidden content">
+
+		  		<!-- Imagem com link -->	
+		    	<a href=""><img src="imagens/trava2.jpg" class="ui small image"></a>
+		  	</div>
+		    </div>
+
+		    <!-- Nome do Produto e Preço com Link -->	
+		    <a href=""><h2 class="ui header">Trava Quebra Vento</h2>
+		    <h3>R$25,90</h3></a>
+
+		    <!-- Botão Verde -->	
+		  	<button class="positive ui button">Comprar</button>
+
+		  	<!-- Botão Vermelhor e Ícone de carrinho -->	
+		  	<button class="negative ui button"><i class="shopping cart icon"></i></button>
+	    </div>
+
+
+		<!-- Coluna -->	
+		<div class="column">
+
+			<!-- Divisão para animação de imagem -->	
+			<div class="ui move right reveal">
+
+				<!-- Imagem Visível -->	
+		  		<div class="visible content">
+
+		  			<!-- Imagem com link -->	
+		    		<a href=""><img src="imagens/trava1.jpg" class="ui small image"></a>
+		  		</div>
+
+			<!-- Imagem Invisível -->		
+		  	<div class="hidden content">
+
+		  		<!-- Imagem com link -->	
+		    	<a href=""><img src="imagens/trava2.jpg" class="ui small image"></a>
+		  	</div>
+		    </div>
+
+		    <!-- Nome do Produto e Preço com Link -->	
+		    <a href=""><h2 class="ui header">Trava Quebra Vento</h2>
+		    <h3>R$25,90</h3></a>
+
+		    <!-- Botão Verde -->	
+		  	<button class="positive ui button">Comprar</button>
+
+		  	<!-- Botão Vermelhor e Ícone de carrinho -->	
+		  	<button class="negative ui button"><i class="shopping cart icon"></i></button>
+	    </div>
+
+	    
+		<!-- Coluna -->	
+		<div class="column">
+
+			<!-- Divisão para animação de imagem -->	
+			<div class="ui move right reveal">
+
+				<!-- Imagem Visível -->	
+		  		<div class="visible content">
+
+		  			<!-- Imagem com link -->	
+		    		<a href=""><img src="imagens/trava1.jpg" class="ui small image"></a>
+		  		</div>
+
+			<!-- Imagem Invisível -->		
+		  	<div class="hidden content">
+
+		  		<!-- Imagem com link -->	
+		    	<a href=""><img src="imagens/trava2.jpg" class="ui small image"></a>
+		  	</div>
+		    </div>
+
+		    <!-- Nome do Produto e Preço com Link -->	
+		    <a href=""><h2 class="ui header">Trava Quebra Vento</h2>
+		    <h3>R$25,90</h3></a>
+
+		    <!-- Botão Verde -->	
+		  	<button class="positive ui button">Comprar</button>
+
+		  	<!-- Botão Vermelhor e Ícone de carrinho -->	
+		  	<button class="negative ui button"><i class="shopping cart icon"></i></button>
+	    </div>
+  	    
+	</div>	
+
+	<!-- Divisão -->
+	<div class="ui inverted divider"></div>
+
+	<!-- Título -->
+	<h1 id="comments">Comentários</h1>
+
+	<!-- Divisão com 2 Colunas -->
+	<div class="ui two column grid">
+
+		<!-- Coluna -->
+		<div class="column">
+
+			<!-- Espaço para texto -->
+			<div class="ui raised segment">
+
+			<!-- Imagem pequena circular posicionada a esquerda -->	
+			<img class="ui small circular left floated image" src="imagens/p1.png">
+
+			<!-- Título -->
+			<h1>Geraldo Automotivo</h1>
+
+				<!-- Parágrafo -->				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+			</div>
+        </div>
+
+        <!-- Coluna -->
+        <div class="column">
+
+        	<!-- Espaço para texto -->
+			<div class="ui raised segment">
+
+			<!-- Imagem pequena circular posicionada a esquerda -->	
+			<img class="ui small circular right floated image" src="imagens/p2.jpg">
+
+			<!-- Título -->
+			<h1>Carlos Mecânico</h1>
+
+				<!-- Parágrafo -->				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+			</div>
+        </div>
+
+        <!-- Coluna -->
+        <div class="column">
+
+        	<!-- Espaço para texto -->
+			<div class="ui raised segment">
+
+			<!-- Imagem pequena circular posicionada a esquerda -->	
+			<img class="ui small circular left floated image" src="imagens/p2.jpg">
+
+			<!-- Título -->
+			<h1>Carlos Mecânico</h1>		
+
+				<!-- Parágrafo -->		
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+			</div>
+        </div>
+
+        <!-- Coluna -->
+		<div class="column">
+
+			<!-- Espaço para texto -->
+			<div class="ui raised segment">
+
+			<!-- Imagem pequena circular posicionada a esquerda -->		
+			<img class="ui small circular right floated image" src="imagens/p1.png">
+
+			<!-- Título -->
+			<h1>Geraldo Automotivo</h1>	
+
+				<!-- Parágrafo -->			
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+			</div>
+        </div>       
+	</div>
+</div>
+
+<!-- Rodapé com cor invertida -->
+<div class="ui inverted footer segment">
+
+	<!-- Segmento centralizado -->
+	<div class="ui inverted center aligned segment">
+
+		<!-- Divisão em colunas -->
+		<div class="ui stackable inverted divided grid">
+
+		 	<!-- Coluna tamanho 4 -->
+		 	<div class="four wide column">
+
+		 		<!--Título -->
+		 		<h4 class="ui inverted header">Sobre</h4>
+
+		 		<!-- Divisão Lista -->
+		 		<div class="ui inverted link list">
+
+		 			<!-- Link -->
+		 			<a href="" class="item">História</a>
+
+		 			<!-- Link -->
+		 			<a href="" class="item">Missão</a>
+
+		 			<!-- Link -->
+		 			<a href="" class="item">Visão</a>
+
+		 			<!-- Link -->
+		 			<a href="" class="item">Valores</a>		 		
+		 		</div>
+		 	</div>
+
+		<!-- Coluna tamanho 4 -->	
+		<div class="four wide column">
+
+			<!--Título -->
+		 	<h4 class="ui inverted header">Contato</h4>
+
+		 	<!-- Divisão Lista -->
+		 	<div class="ui inverted link list">
+
+		 		<!-- Link -->
+		 		<a href="" class="item">Email</a>
+
+		 		<!-- Link -->
+		 		<a href="" class="item">Telefone</a>
+
+		 		<!-- Link -->
+		 		<a href="" class="item">Whatsapp</a>		 		
+		 	</div>
+		</div>
+
+		<!-- Coluna tamanho 7 -->
+ 		<div class="seven wide column">
+
+ 			<!--Título -->
+		 	<h4 class="ui inverted header">GRM ACESSÓRIOS</h4>
+
+		 	<!-- Parágrafo -->
+		 	<p>Não perca a motivação só porque as coisas não estão correndo como o previsto. Adversidade gera sabedoria e é isso que levará você ao sucesso.</p>
+		</div>			 
+	</div>
+
+	<!-- Divisão cor invertida -->
+	<div class="ui inverted divider"></div>
+
+	<!-- Imagem com link -->
+	<a href="https://www.mercadopago.com.br/">
+	<img class="ui centered small image" src="imagens/mercadopago.png">
+	</a>
+</div>
+</body>
+</html>
